@@ -12,7 +12,7 @@ def load_data():
     """This function returns the preprocessed data"""
 
     # Load the Diabetes dataset into DataFrame.
-    df = pd.read_csv('prostate.csv')
+    df = pd.read_csv('Prostate-Cancer-Detection/prostate.csv')
 
     # Rename the column names in the DataFrame.
     
